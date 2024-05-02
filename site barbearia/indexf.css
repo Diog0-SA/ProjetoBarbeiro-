@@ -1,0 +1,395 @@
+* {
+	box-sizing: border-box;
+    
+}
+body {
+    height: 125vh;
+    background: url('imagens/img1.jpg') no-repeat 0 0;
+    background-size: 100%;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 80px;
+    padding: 30px;
+    line-height: 1.6;
+	margin: 0;
+	min-height: 100vh;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+/*navbar*/
+
+header img {
+    height: 50px;
+}
+
+main {
+    color: white;
+}
+
+header {
+    background-color: rgb(56, 28, 6);
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 0 25px 0 black;
+    max-width: 1920px;
+}
+
+
+header * {
+    display: inline;
+}
+
+header li {
+    margin: 20px;
+}
+
+header li a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.main-nav a:hover {
+    color: rgba(218,165,32,1);
+    font-size: 120%;
+}
+
+/*cabelereiros*/
+
+
+.qua01 {
+    background-image: linear-gradient(180deg, rgba(218,165,32,1) 0%, rgb(56, 28, 6) 86%);
+    height: 350px;
+	width:  350px;
+    margin-top: 60%;
+    left: 0;
+    z-index: -1;
+    position: absolute;
+    box-shadow: rgba(20, 20, 20, 0.74) 6px 2px 16px 0px, rgba(0, 0, 0, 0.74) -6px -2px 16px 0px;
+    border-radius: 10px 40px 40px 10px;
+
+}
+
+.qua02 {
+    background-image: linear-gradient(180deg, rgba(218,165,32,1) 0%, rgb(56, 28, 6) 86%);
+    height: 350px;
+	width:  350px;
+    right: 0;
+    margin-top: 95%;
+    position: absolute;
+    z-index: -1;
+    box-shadow: rgba(20, 20, 20, 0.74) 6px 0px 16px 0px, rgba(0, 0, 0, 0.74) -6px -2px 16px 0px;
+    border-radius: 40px 10px 10px 40px;
+}
+
+.qua03 {
+    background-image: linear-gradient(180deg, rgba(218,165,32,1) 0%, rgb(56, 28, 6) 86%);
+    height: 350px;
+	width:  350px;
+    left: 0;
+    margin-top: 135%;
+    position: absolute;
+    z-index: -1;
+    box-shadow: rgba(20, 20, 20, 0.74) 6px 0px 16px 0px, rgba(0, 0, 0, 0.74) -6px -2px 16px 0px;
+    border-radius: 10px 40px 40px 10px;
+    
+}
+
+.qua04 {
+    background-image: linear-gradient(180deg, rgba(218,165,32,1) 0%, rgb(56, 28, 6) 86%);
+    height: 350px;
+	width:  350px;
+    right: 0;
+    margin-top: 175%;
+    position: absolute;
+    z-index: -1;
+    box-shadow: rgba(20, 20, 20, 0.74) 6px 0px 16px 0px, rgba(0, 0, 0, 0.74) -6px -2px 16px 0px;
+    border-radius: 40px 10px 10px 40px;  
+}
+
+.cabe01 {
+    height: 300px;
+	width: 300px;
+    background-image: url(imagens/chengsilva.jpg);
+    background-color: rgba(218,165,32,1);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 65%;
+    margin-top: 7%;
+    box-shadow: rgb(0, 0, 0) 0px 7px 29px 0px;
+    border-radius: 30px;
+}
+
+.cabe02 {
+    height: 300px;
+	width: 300px;
+    background-color: rgb(0, 0, 0);
+    background-image: url(imagens/FelipihPereira.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    right: 65%;
+    margin-top: 7%;
+    position: absolute;
+    box-shadow: rgb(0, 0, 0) 0px 7px 29px 0px;
+    border-radius: 30px;
+}
+
+.cabe03 {
+    height: 300px;
+	width: 300px;
+    background-color: rgba(218,165,32,1);
+    background-image: url(imagens/Gustavoavelino.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 65%;
+    margin-top: 7%;
+    box-shadow: rgb(0, 0, 0) 0px 7px 29px 0px;
+    border-radius: 30px;
+}
+.cabe04 {
+    height: 300px;
+	width: 300px;
+    background-color: rgb(0, 0, 0);
+    background-image: url(imagens/dimasedmar.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    right: 65%;
+    margin-top: 7%;
+    position: absolute;
+    box-shadow: rgb(0, 0, 0) 0px 7px 29px 0px;
+    border-radius: 30px;
+}
+
+/*textos*/
+
+.textos {
+    width: 250px;
+    height: 250px;
+    z-index: -1;
+}
+
+.txt1 {
+    margin-top: 60%;
+    text-align: center;
+    margin-left: 515px;
+    position: absolute;
+    z-index: -1;
+
+    .h3 {
+        text-align: right;
+    }
+    
+    .p {
+        text-align: justify;
+
+    }
+}
+
+.txt2 {
+    margin-top: 95%;
+    text-align: center;
+    margin-right: 520px;
+    position: absolute;
+    z-index: -1;
+
+    .h3 {
+        text-align: left;
+    }
+    
+    .p {
+        text-align: justify;
+
+    }
+}
+
+.txt3 {
+    margin-top: 135%;
+    text-align: center;
+    margin-left: 510px;
+    position: absolute;
+    z-index: -1;
+
+    .h3 {
+        text-align: right;
+    }
+    
+    .p {
+        text-align: justify;
+
+    }
+}
+
+.txt4 {
+    margin-top: 175%;
+    text-align: center;
+    margin-right: 540px;
+    position: absolute;
+    z-index: -1;
+
+    .p {
+        text-align: justify;
+    }
+}
+
+/*footer*/
+
+.footer {
+    background: rgb(56, 28, 6);
+    width: 100%;
+    height: 80%;
+    float:inline-end;
+    font-size: 18px;
+    /*padding: 50px 10px 50px 10px;*/
+    position: absolute;
+    margin-top: 2400px;
+    z-index: -1;
+    align-items: center;
+    margin-left: -30px;
+    
+}
+
+
+.footer .titulofooter {
+    color: #fff;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: initial;
+    font-size: 50px;
+    width: 100%;
+    float: left;
+    margin-bottom: 15px;
+}
+
+.footer .titulofooter span {
+    color: rgba(218,165,32,1);
+    font-family: 'DM Sans', sans-serif;
+    font-weight: bold;
+}
+
+.box {
+    width: 70%;
+    float: left;
+    height: 80%;/*Altura da linha*/
+    margin-top: -434px;
+    z-index: 1;
+    margin-left: 400px;
+}
+
+.linha-vertical {
+    border-left: 2px solid;/* Adiciona borda esquerda na div como ser fosse uma linha.*/
+    box-sizing: border-box;
+}
+
+.rodape-direitos{
+    width: calc(100% - 0px);
+    background-color: black;
+    padding: 50px;
+    margin: 0px;
+    text-align: center;
+    color: white;
+}
+
+/*links*/
+
+footer{
+    max-width: 1920px;
+}
+
+footer > svg{
+    z-index: -1;
+    width: 5%;
+    height: 5%;
+    margin: 80px 0 0 0 ;
+    float: bottom;
+    font-size: 2em;
+}
+
+footer > span{
+    padding: 90px 0px 0px 0px;
+    font-size: 25px; 
+    color: white;
+}
+
+footer > span:hover{
+    font-size: 155%;
+    color: rgba(218,165,32,1);
+}
+
+/*mapa*/
+
+iframe{
+    position: relative;
+    margin-bottom: -480px;
+    justify-content: right;
+    align-items: right;
+    z-index: 1;
+    right: -500px;
+    top: -485px;
+    width: 47%;
+    height: 400px;
+    max-width: 700px;
+}
+                                        /*redimensionamento*/
+@media screen and (max-width: 953px){
+    .qua01{
+        margin: 330px 0 0 0;
+    }
+
+    .txt1{
+        margin: 700px 0 0 0;
+    }
+    .qua02{
+        margin: 900px 0 0 0;
+    }
+
+    .txt2{
+        margin: 1300px 0 0 0;
+    }
+
+    .qua03{
+        margin: 1500px 0 0 0;
+    }
+
+    .txt3{
+        margin: 1900px 0 0 0;
+    }
+
+    .qua04{
+        margin: 2100px 0 0 0;
+    }
+
+    .txt4{
+        margin: 2480px 0 0 0;
+    }
+                                                /*barbeiros*/
+    iframe{
+        margin: 550px 0 0 0;
+        left: 0;
+        width: 100%;
+    }
+
+    .rodape-direitos{
+        margin: -500px 0 0 0;
+        height: 100%;
+    }
+
+    .main-nav a{
+        font-size: 150%;
+    }
+    
+    .main-nav a:hover{
+        font-size: 150%;
+    }
+
+    .main-nav{
+        display: flex;
+    }
+
+    .linha-vertical{
+        border: none;
+    }
+}
